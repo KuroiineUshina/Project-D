@@ -4,6 +4,10 @@
 
 ## 문서
 
+- [새 세션 시작 지침](START-HERE.md)
+- [협업 및 Git 작업 흐름](docs/process/collaboration-workflow.md)
+- [분야 분담과 책임 범위](docs/process/workstreams.md)
+- [첫 플레이 가능 수직 슬라이스](docs/design/first-playable-slice.md)
 - [게임 아이디어 초안](docs/game-idea.md)
 - [프로젝트 방향과 레퍼런스](docs/project-direction.md)
 - [Escape from Tarkov 조사 인덱스](docs/research/escape-from-tarkov-research-index.md)
