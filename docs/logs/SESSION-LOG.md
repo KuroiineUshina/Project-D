@@ -115,3 +115,34 @@
 
 - 스토리, 의뢰 라인, 지역 설정, NPC 설정은 사용자가 직접 작성 예정
 - Codex와 Codex 서브 에이전트는 질문, 피드백, 구조화, 구현을 지원
+
+## 2026-05-14 이미지 작업 규칙 반영
+
+컴퓨터/세션: Codex 세션  
+작업자: Codex  
+브랜치: main  
+커밋: Image workflow update
+
+작업 요약:
+
+- 이미지가 필요한 작업은 먼저 Codex 서브 에이전트에게 이미지 브리프, 레퍼런스 정리, 프롬프트 초안을 맡기도록 규칙화
+- 최종 이미지 생성은 imagegen 스킬만 사용하도록 기존 규칙 유지
+
+변경 파일:
+
+- `AGENTS.md`
+- `START-HERE.md`
+- `docs/design/project-decisions.md`
+- `docs/process/collaboration-workflow.md`
+
+검증:
+
+- 이미지 작업 규칙 검색으로 반영 위치 확인
+
+다음 작업:
+
+- 실제 이미지 작업 요청 시 Codex 서브 에이전트가 먼저 브리프와 프롬프트 초안을 준비
+
+주의점:
+
+- 코드나 벡터를 통한 이미지 생성은 금지
